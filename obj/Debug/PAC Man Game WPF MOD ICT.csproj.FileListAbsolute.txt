@@ -1,0 +1,15 @@
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.csproj.AssemblyReference.cache
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\MainWindow.g.cs
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\App.g.cs
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT_MarkupCompile.cache
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT_MarkupCompile.lref
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\bin\Debug\PAC Man Game WPF MOD ICT.exe.config
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\bin\Debug\PAC Man Game WPF MOD ICT.exe
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\bin\Debug\PAC Man Game WPF MOD ICT.pdb
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\MainWindow.baml
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.g.resources
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC_Man_Game_WPF_MOD_ICT.Properties.Resources.resources
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.csproj.GenerateResource.cache
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.exe
+C:\Users\Jonathan\OneDrive\Área de Trabalho\PacMan\PAC Man Game WPF MOD ICT\PAC Man Game WPF MOD ICT\obj\Debug\PAC Man Game WPF MOD ICT.pdb
