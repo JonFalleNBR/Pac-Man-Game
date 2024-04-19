@@ -37,7 +37,7 @@ namespace PAC_Man_Game_WPF_MOD_ICT
         Rect pacmanHitbox;
 
         int ghostSpeed = 10;
-        int ghostMoveStep = 130;
+        int ghostMoveStep = 160;
         int currentGhostStep;
         int score = 0;
 
@@ -209,12 +209,51 @@ namespace PAC_Man_Game_WPF_MOD_ICT
                         goUp = false;
                     }
 
+                }
 
+                if ((string) x.Tag == "coin") // essa tag é o que esta defino na construção da tela la MainWindow.xaml
+                {
+                    if(pacmanHitbox.IntersectsWith(hitBox) && x.Visibility == Visibility.Visible)
+                    {
+                        x.Visibility = Visibility.Hidden;
+                        score++;
 
-
+                    }
                 }
 
 
+                if((string) x.Tag == "ghost")
+                {
+                    if (pacmanHitbox.IntersectsWith(hitBox))
+                    {
+                        GameOver("Que Azar! O Fantasma te achou, selecione Ok para tentar novamente"); 
+                    }
+                    if (x.Name.ToString() == "orangeGuy")
+                    {
+                        Canvas.SetLeft(x, Canvas.GetLeft(x) - ghostSpeed);
+                    }
+                    else
+                    {
+                        Canvas.SetLeft(x, Canvas.GetLeft(x) + ghostSpeed);
+                    }
+
+                    currentGhostStep--;
+
+                    if(currentGhostStep < 1) 
+                    {
+                        currentGhostStep = ghostMoveStep;
+                        ghostSpeed = -ghostSpeed;
+                    
+                    }
+                }
+            }
+
+
+            // 85 coins win the game 
+
+            if (score == 85)
+            {
+                GameOver("Parabéns, voce pegou todas as moedas, Selecione Ok para jogar novamente");
             }
 
 
