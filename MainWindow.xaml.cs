@@ -42,6 +42,8 @@ namespace PAC_Man_Game_WPF_MOD_ICT
 
         public MainWindow()
         {
+
+            Console.WriteLine("Teste de funcionalidade");
             InitializeComponent();
 
             GameSetup();
@@ -90,13 +92,13 @@ namespace PAC_Man_Game_WPF_MOD_ICT
         private void GameOver(string message)
         {
             gameTimer.Stop();
-            MessageBox.Show(message, "The Pac Man Game MOD ICT");
+            MessageBox.Show(message, "The Pac Man Game MOD ICT foi encerrado");
 
             System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
             Application.Current.Shutdown();
         }
 
 
-
+        
     }
 }
