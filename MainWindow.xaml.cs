@@ -43,7 +43,7 @@ namespace PAC_Man_Game_WPF_MOD_ICT
         public MainWindow()
         {
 
-            Console.WriteLine("Teste de funcionalidade");
+            Console.WriteLine("Projeto do Jonathan");
             InitializeComponent();
 
             GameSetup();
@@ -51,7 +51,53 @@ namespace PAC_Man_Game_WPF_MOD_ICT
 
         private void CanvasKeyDown(object sender, KeyEventArgs e)
         {
-           
+
+            //Left
+            if (e.Key == Key.Left && !noLeft)
+            {
+                goRight = goUp = goDown =false;
+                noRight = noUp = noDown = false;
+
+                goLeft = true;
+
+                pacman.RenderTransform = new RotateTransform(-180, pacman.Width /2, pacman.Height / 2 );
+            }
+            // Right
+            if ( e.Key == Key.Right && !noRight)
+            {
+                noLeft = noUp = noDown = false;
+                goLeft = goUp = goDown = false;
+
+                goRight = true;
+
+                pacman.RenderTransform = new RotateTransform(0, pacman.Width / 2, pacman.Height / 2);
+            }
+            // Up
+            if( e.Key == Key.Up && !noUp)
+            {
+                noRight = noLeft = noDown = false;
+                goRight= goLeft = goDown = false;
+
+                goUp = true;
+
+
+                pacman.RenderTransform = new RotateTransform(-90, pacman.Width / 2, pacman.Height / 2);
+            }
+
+            if ( e.Key == Key.Down && !noDown)
+            {
+                noRight = noLeft = noUp = false;
+                goRight = goLeft = goUp = false;
+
+                goDown = true;
+
+                pacman.RenderTransform = new RotateTransform(90, pacman.Width / 2, pacman.Height / 2);
+
+
+            }
+
+
+
         }
 
         private void GameSetup()
