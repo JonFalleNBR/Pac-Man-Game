@@ -16,19 +16,19 @@
         <Rectangle Name="pinkGuy" Tag="ghost" Width="30" Height="30" Fill="Pink" Canvas.Left="173" Canvas.Top="404" />
 
 
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="578" Canvas.Left="142" Canvas.Top="70" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="402" Canvas.Left="231" Canvas.Top="159" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="142" Canvas.Top="339" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="142" Canvas.Top="467" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="596" Canvas.Top="467" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="20" Width="124" Canvas.Left="596" Canvas.Top="339" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="142" Canvas.Top="155" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="187" Width="20" Canvas.Left="700" Canvas.Top="155" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="109" Width="20" Canvas.Left="613" Canvas.Top="178" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="109" Width="20" Canvas.Left="231" Canvas.Top="178" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="142" Canvas.Top="485" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="20" Canvas.Left="700" Canvas.Top="485" />
-        <Rectangle Tag="wall" Stroke="Aqua" StrokeThickness="3" Height="82" Width="76" Canvas.Left="395" Canvas.Top="487" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="578" Canvas.Left="142" Canvas.Top="70" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="402" Canvas.Left="231" Canvas.Top="159" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="124" Canvas.Left="142" Canvas.Top="339" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="124" Canvas.Left="142" Canvas.Top="467" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="124" Canvas.Left="596" Canvas.Top="467" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="124" Canvas.Left="596" Canvas.Top="339" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="187" Width="20" Canvas.Left="142" Canvas.Top="155" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="187" Width="20" Canvas.Left="700" Canvas.Top="155" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="109" Width="20" Canvas.Left="613" Canvas.Top="178" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="109" Width="20" Canvas.Left="231" Canvas.Top="178" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="82" Width="20" Canvas.Left="142" Canvas.Top="485" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="82" Width="20" Canvas.Left="700" Canvas.Top="485" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="82" Width="76" Canvas.Left="395" Canvas.Top="487" />
 
 
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="204" Canvas.Top="134" />
@@ -116,6 +116,7 @@
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="318" Canvas.Top="510" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="350" Canvas.Top="544" />
         <Rectangle Tag="coin" Height="10" Width="10" Fill="Gold" Canvas.Left="350" Canvas.Top="510" />
+        <Rectangle Tag="wall" Stroke="Blue" StrokeThickness="3" Height="20" Width="126" Canvas.Left="370" Canvas.Top="339" HorizontalAlignment="Left" VerticalAlignment="Center" />
 
 
 
